@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabbit Home | Tienda online</title>
+    <link rel="icon" href="./Imagenes/iconos/Usada_Pekora_-_Signature.png">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--NAV-->   
+     <nav>
+        <div>
+            <a href="./index.html"><img class="iconoInicio" src="./Imagenes/iconos/icono-de-la-casa-azul-sobre-fondo-blanco2.png" alt="logo de inicio con forma de casa" srcset=""></a>
+            <img class="nombrePag" src="./Imagenes/iconos/nombre.png" alt="">            
+        </div>
+
+        <div id="barraSuperior">
+            <div class="divMenu">
+                <a href="./productos.html"class="aMenu">Productos</a>
+            </div>
+
+            <div class="divMenu">
+                <a href="./contacto.html"class="aMenu">Contacto</a>
+            </div>
+
+            <div class="divMenu">
+                <a  href="./ingresar.html" class="aMenu">Ingresar</a>
+            </div>
+        </div>
+
+        <div class="divCarrito">
+            <p id="carritoP"> </p>
+            <img class="imgCarrito" src="./Imagenes/iconos/carrito.png" alt="" srcset="">
+        </div>
+    </nav>
+<!--HEADER-->
+    <header>
+        <div class="divHeader">
+            <img class="imgheader" src="./Imagenes/iconos/camion.png" alt="">    
+            <p class="pHeader">Hacemos envios por CABA Y GBA.</p>
+        </div>
+
+        <div class="divHeader">
+            <img class="imgheader" src="./Imagenes/iconos/tarjeta.png" alt="">
+            <p class="pHeader">Aceptamos todas las tarjetas</p>
+        </div>
+
+        <div class="divHeader">
+            <img class="imgheader" src="./Imagenes/iconos/mercadoPago.png" alt="">
+            <p class="pHeader">Aceptamos Mercado Pago</p>
+        </div>
+    </header>
+<!--MAIN-->
+<main id="mainContacto">
+    <h3>CONTACTO</h3>
+    <div class="containerContacto">
+        <div class="divContacto">
+            <p>Si tienes alguna duda o necesitas ayuda, contactanos!</p>
+            <p>Nuestro Horarios de Atención y Entrega en nuestras oficinas son: lunes a viernes de 9 a 15 hs y de 17 a 19 hs (no se entregara fuera de ese horario ni dias feriados, mil disculpas)</p>
+            <br><br>
+            <p>Para dejarnos un comentario, por favor rellene el siguiente formulario:</p>
+        </div>
+
+        <div class="formContacto">
+            <form class="formulario" action="">
+                <div>
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" name="nombreUsuario" id="s">  
+                </div>
+                <div>
+                    <label for="mail">Correo electronico</label>
+                    <input type="text" name="mailUsuario" id="ss">
+                </div>
+                <div>
+                    <label for="tel">Numero de telefono</label>
+                    <input type="tel" name="numeroUsuario" id="sss">
+                </div>
+                <div>
+                    <label for="local">Localidad</label>
+                    <input type="text" name="localidadUsuario" id="ssss">
+                </div>
+                <div class="cuadro">
+                    <label for="msj">Mensaje</label>
+                    <br>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+                </div>
+                <button class="envio" onclick="Envio()">ENVIAR</button>
+            </form>
+        </div>
+    </div>
+
+    
+</main>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="divFooter">
+            <p class="pFooter">Contacto</p>
+            <p class="pFooter">Trabaja con nosotros</p>
+            <a href="#"><p class="pFooter" id="oscuro" >Modo Oscuro</p></a>
+        </div>
+        
+        <div class="divFooter">
+            <p class="pFooter">
+                Copyright Rabbit Home - Tienda Online 2022 - Todos los derechos reservados.
+            </p>            
+        </div>
+
+
+    </footer>
+    <script src="./miarchivo.js"></script>
+</body>
+</html>
