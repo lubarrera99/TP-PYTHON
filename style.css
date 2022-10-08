@@ -48,9 +48,9 @@ p, .pBOTON , .aCompra{
 /********NAV********/
 nav{
    
-    background-image: url(./Imagenes/fondos/b7b0cc73c520df21ee1dca9da1fa606d.jpg);
-    background-repeat: no-repeat;
-    background-size:cover ;
+    background-image: url(./Imagenes/fondos/pixel.jpg);
+    background-repeat: repeat;
+    background-size:contain;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
